@@ -16,7 +16,7 @@ body{
     align-items: center;
 }
 #navlogodiv{
-    background-image: url(https://github.com/rishi-gowda-007/Amazon_Clone-html-and-css-/blob/main/switching/image.png?raw=true);
+    background-image: url('https://github.com/rishi-gowda-007/Amazon_Clone-html-and-css-/blob/main/switching/image.png?raw=true');
     background-size:cover;
     height: 30px;
     width: 110px;
@@ -199,7 +199,7 @@ body{
     width: 90%;
     height: 65%;
     display: inline-block;
-    background-image: url(https://github.com/rishi-gowda-007/Amazon_Clone-html-and-css-/blob/main/switching/tv.jpg?raw=true); 
+    background-image: url('https://github.com/rishi-gowda-007/Amazon_Clone-html-and-css-/blob/main/switching/tv.jpg?raw=true'); 
     background-size: cover;
 }
 #cardclasslink
