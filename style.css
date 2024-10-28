@@ -16,11 +16,7 @@ body{
     align-items: center;
 }
 #navlogodiv{
-<<<<<<< HEAD
     background-image: url(https://github.com/rishi-gowda-007/Amazon_Clone-html-and-css-/blob/main/switching/image.png?raw=true);
-=======
-    background-image: url('https://github.com/rishi-gowda-007/Amazon_Clone-html-and-css-/blob/main/amazonlogo.png?raw=true');
->>>>>>> cbe514ebc64b5a2e9498f0fd33899760ef790791
     background-size:cover;
     height: 30px;
     width: 110px;
