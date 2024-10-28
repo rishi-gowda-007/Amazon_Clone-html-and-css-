@@ -1,0 +1,421 @@
+body{
+    background-color: rgb(175, 179, 185);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+/* navigation bar */
+#nav1{
+    background-color: #131A22;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navlogodiv{
+    background-image: url(/switching/image.png);
+    background-size:cover;
+    height: 30px;
+    width: 110px;
+}
+#navlocation{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+#searchengine
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#searchengineselect{
+    width: 40px;
+    height: 35px;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-sizing: border-box;
+}
+#searchenginebar{
+    width: 500px;
+    height: 35px;
+    box-sizing: border-box;
+}
+#searchenginebutton{
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    width: 40px;
+    height: 35px;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-sizing: border-box;
+}
+#navlang{
+    display: inline-block;
+}
+#navlangselect
+{
+    background-color: rgb(1, 1, 23);
+    color: white;
+    width: 40px;
+    border: none;
+    font-size: 18px;
+}
+#navaccount
+{
+    color: white;
+    text-decoration: none;
+}
+#navro
+{
+    color: white;
+    text-decoration: none;
+}
+#navcart
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#nav2{
+    background-color: #232F3E;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#nav2select
+{
+    background-color: #232F3E;
+    color: white;
+    width: 40px;
+    height:30px;
+    margin-right: 15px;
+    margin-left: 10px;
+    border: none;
+}
+.nav2items{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+    transition: all 0.2s ease-in;
+}
+/*hovering*/
+#nav2select:hover{
+    border: 2px solid white;
+}
+.nav2items:hover{
+    border: 2px solid white;
+}
+#navcart:hover{
+    border: 2px solid white;
+}
+#navro:hover{
+    border: 2px solid white;
+}
+#navaccount:hover{
+    border: 2px solid white;
+}
+#navlang:hover{
+    border: 2px solid white;
+}
+#navlocation:hover{
+    border: 2px solid white;
+}
+#navlogo:hover{
+    border: 2px solid white;
+}
+/* Navigation bar end */
+
+/* main content */
+
+#switching_tabs{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    justify-content:center;
+}
+#switch1{
+    height: 99%;
+    width: 99%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(switching/switchimg1.jpg);
+    background-size:contain;
+}
+#backward,#forward{
+    width: 80px;
+    height: 250px;
+    font-size: 50px;
+    color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+}
+#backward{
+    position:absolute;
+    left: 20px;
+}
+#forward{
+    position: absolute;
+    right: 20px;
+}
+#backward:hover{
+    border: 2px solid white;
+}
+#forward:hover{
+    border: 2px solid white;
+}
+
+
+
+#card1{
+    height : 450px;
+    width: 100%;
+    background-color: rgba(255, 255, 255,0);
+    position: absolute;
+    top: 360px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardclass{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#cardclassinter{
+    width: 90%;
+    height: 65%;
+    display: inline-block;
+    background-image: url(/switching/tv.jpg); 
+    background-size: cover;
+}
+#cardclasslink
+{
+    text-decoration: none;
+    color: orange;
+}
+
+
+#card2{
+    height : 300px;
+    width: 99%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 8px;
+}
+#card2_box1{
+    width: 99%;
+    height: 8%;
+}
+#card2_frame{
+    width: 100% ;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.card2_box2{
+    width: 12%;
+    height: 95%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#card3{
+    height : 350px;
+    width: 99%;
+    background-color: rgb(219, 172, 84);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 8px;
+    position: relative;
+    top: 15px;
+}
+#card3_frame{
+    width: 100% ;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.card3_main{
+    height: 95%;
+    width: 15%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card3_box2{
+    width: 95%;
+    height: 22%;
+}
+.card3_box1{
+    width: 95%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.offer_box{
+    height: 25px;
+    background-color: #CC0C39; 
+    color: white; 
+    font-weight: 600;
+    display: inline-block;
+    font-size: 14px; 
+    border-radius: 2px;
+}
+
+
+#card4{
+    height : 270px;
+    width: 99%;
+    background-color: white;
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 8px;
+    position: relative;
+    top: 35px;
+}
+#card4_box1{
+    width: 99%;
+    height: 8%;
+}
+#card4_frame{
+    width: 100% ;
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+}
+.card4_box2{
+    width: 19%;
+    height: 95%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#card5{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#card5_signin{
+    background-color: rgb(246, 172, 34);
+    border:2px solid orange;
+    border-radius: 2px;
+    height: 25px;
+    width: 200px;
+}
+#f1box1{
+    position: relative;
+    top:50px;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background-color: #2f3d4f ;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+#f1box2{
+    position: relative;
+    top:50px;
+    width: 100%;
+    height: 400px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#f1box2_1{
+    background-color: #232F3E;
+    color: white;
+    width: 20%;
+    height: 90%;
+}
+#f1box2_2{
+    position: relative;
+    top:50px;
+    background-color: #232F3E;
+    color: white;
+    width: 100%;
+    height: 80px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.05px solid silver;
+}
+#flogo{
+    background-image: url(amazonlogo.png);
+    background-size: cover;
+    height: 45px;
+    width: 100px;
+}
+#fselect{
+    background-color: #232F3E;
+    color: white;
+    border: 2px solid silver;
+}
+.fa{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.2s ease-in;
+}
+.fa:hover{
+    text-decoration: underline;
+}
+
+#f1box3{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-color: #131A22;
+    color: white;
+    position: relative;
+    top: 50px;
+    font-size: 12px;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.f1box3_1{
+    display: inline-block;
+}
+.f13{
+    display: flex;
+    justify-content: space-around;
+}
+#fa2{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+#fa2:hover{
+    text-decoration: underline;
+}
